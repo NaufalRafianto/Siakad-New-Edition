@@ -7,13 +7,12 @@ make: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Sat Jun 11 14:36:58 2022
+# Make data base, printed on Sat Jun 11 18:48:05 2022
 
 # Variables
 
-# environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -23,7 +22,7 @@ USERPROFILE = C:\Users\naufl
 # environment
 LOCALAPPDATA = C:\Users\naufl\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-e36f8302-105a-4ea7-9c84-d65b6a6be1f0-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a6f154de-cfc1-4a9a-8243-1fbfe740dc9e-sock
 # environment
 VSCODE_CWD = C:\Users\naufl\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -39,9 +38,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8512_FXQFDUKZYVCFYICC
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3956_JADKOWXHKJGLFXCM
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -73,7 +70,7 @@ INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
 # environment
 ONEDRIVE = C:\Users\naufl\OneDrive
 # makefile
-CURDIR := d:/Programming/Tugas
+CURDIR := d:/Programming/Siakad-New-Edition
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -89,7 +86,8 @@ MFLAGS = -pqrR
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
-+D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
++D = $(pat 
+subst %/,%,$(patsubst %\,%,$(dir $+)))
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST := Makefile
 # automatic
@@ -97,7 +95,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 8512
+VSCODE_PID = 3956
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -128,8 +126,7 @@ WINDIR = C:\Windows
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
-# environm 
-ent
+# environment
 PATH = C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\msys64\mingw64\bin;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Users\naufl\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\naufl\AppData\Local\Programs\Python\Python310\;D:\Anaconda;D:\Anaconda\Library\mingw-w64\bin;D:\Anaconda\Library\usr\bin;D:\Anaconda\Library\bin;D:\Anaconda\Scripts;C:\Users\naufl\AppData\Local\Microsoft\WindowsApps;C:\Users\naufl\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\naufl\AppData\Roaming\npm;C:\msys64\mingw64\bin;C:\Users\naufl\AppData\Local\GitHubDesktop\bin;C:\ProgramData\naufl\GitHubDesktop\bin;D:\PyCharm Community Edition 2022.1.1\bin;
 # environment
 COMPUTERNAME = DESKTOP-5AT8I8M
@@ -139,7 +136,8 @@ MAKEFILES :=
 ^F = $(notdir $^)
 # environment
 PROMPT = $P$G
-# environment
+# environm 
+ent
 CHOCOLATEYLASTPATHUPDATE = 132940581452296832
 # environment
 LOGONSERVER = \\DESKTOP-5AT8I8M
@@ -160,7 +158,8 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-USERDOMAIN = DESKTOP-5AT8I8M
+USERDOMAIN = DESKTOP- 
+5AT8I8M
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -210,8 +209,7 @@ CXXFLAGS = --std=c++17 -O3 -I. -static-libgcc -static-libstdc++ -static
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
-MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared  
-Libraries\compiler\lib\mic
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
 # environment
 PROCESSOR_REVISION = 8e09
 # makefile (from 'Makefile', line 1)
@@ -221,7 +219,7 @@ SOURCES = $(wildcard src/*.cpp)
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=103/1024=10%, Rehash=0, Collisions=11/133=8%
+# Load=101/1024=10%, Rehash=0, Collisions=10/131=8%
 
 # Pattern-specific Variable Values
 
@@ -229,10 +227,11 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
 
 # Directories
 
-# src (key d:/Programming/Tugas/src, mtime 1654932289): 14 files, no impossibilities.
-# . (key d:/Programming/Tugas, mtime 1654932997): 7 files, no impossibilities.
+# src (key d:/Programming/Siakad-New-Edition/src, mtime 1654947965): 14 files, no impossibilities.
+# . (key d:/Programming/Siakad-New-Edition, mtime 1654947984): 9 files, 
+ no impossibilities.
 
-# 21 files, no impossibilities in 2 directories.
+# 23 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -250,10 +249,11 @@ sim: src/dosen.o src/mahasiswa.o src/main.o src/matkul.o src/person.o src/tendik
 #  recipe to execute (from 'Makefile', line 9):
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
-# Not a target:
+# No 
+t a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-11 14:09:53
+#  Last modified 2022-06-11 18:44:00
 #  File has been updated.
 #  Successfully updated.
 
@@ -268,8 +268,7 @@ clean:
 # Not a target:
 src/main.o:
 #  Implicit rule search has not been done.
-#  Modification time never ch 
-ecked.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
@@ -318,7 +317,8 @@ src/person.o:
 
 # Not a target:
 src/dosen.o:
-#  Implicit rule search has not been done.
+#  Implicit rule se 
+arch has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -330,12 +330,13 @@ src/dosen.o:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 33 / storage = 300 B / avg = 9 B
-# current buf: size = 8174 B / used = 300 B / count = 33 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 35 / storage = 315 B / avg = 9 B
+# current buf: size = 8174 B / used = 315 B / count = 35 / avg = 9 B
 
-# strcache performance: lookups = 43 / hit rate = 23%
+# strcache performance: lookups = 45 / hit rate = 22%
 # hash-table stats:
-# Load=33/8192=0%, Rehash=0, Collisions=0/43=0%
-# Finished Make data base on Sat Jun 11 14:36:58 2022
+# Load=35/8192=0%, Rehash=0, Collisi 
+ons=0/45=0%
+# Finished Make data base on Sat Jun 11 18:48:05 2022
 
  
