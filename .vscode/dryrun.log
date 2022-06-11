@@ -1,0 +1,11 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'd:/Programming/Tugas'
+g++ --std=c++17 -O3 -I. -static-libgcc -static-libstdc++ -static  -c -o src/dosen.o src/dosen.cpp
+g++ --std=c++17 -O3 -I. -static-libgcc -static-libstdc++ -static  -c -o src/mahasiswa.o src/mahasiswa.cpp
+g++ --std=c++17 -O3 -I. -static-libgcc -static-libstdc++ -static  -c -o src/main.o src/main.cpp
+g++ --std=c++17 -O3 -I. -static-libgcc -static-libstdc++ -static  -c -o src/matkul.o src/matkul.cpp
+g++ --std=c++17 -O3 -I. -static-libgcc -static-libstdc++ -static  -c -o src/person.o src/person.cpp
+g++ --std=c++17 -O3 -I. -static-libgcc -static-libstdc++ -static  -c -o src/tendik.o src/tendik.cpp
+g++ --std=c++17 -O3 -I. -static-libgcc -static-libstdc++ -static  -o sim src/dosen.o src/mahasiswa.o src/main.o src/matkul.o src/person.o src/tendik.o
+make: Leaving directory 'd:/Programming/Tugas'
+ 
