@@ -10,10 +10,10 @@ private:
 public:
     matkul();
     matkul(std::string matkulId, std::string matkulNama);
-    void setIdMatkul(std::string matkulId);
-    void setNamaMatkul(std::string matkulNama);
-    std::string getIdMatkul();
-    std::string getNamaMatkul();
+    void setId(std::string matkulId);
+    void setNama(std::string matkulNama);
+    std::string getId();
+    std::string getNama();
 };
 
 #endif

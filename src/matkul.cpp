@@ -6,20 +6,20 @@ matkul::matkul() {}
 matkul::matkul(std::string matkulId, std::string matkulNama)
     : idMatkul(matkulId), namaMatkul(matkulNama) {}
 
-void matkul::setIdMatkul(std::string matkulId)
+void matkul::setId(std::string matkulId)
 {
     this->idMatkul = matkulId;
 }
-std::string matkul::getIdMatkul()
+std::string matkul::getId()
 {
     return this->idMatkul;
 }
 
-void matkul::setNamaMatkul(std::string matkulNama)
+void matkul::setNama(std::string matkulNama)
 {
     this->namaMatkul = matkulNama;
 }
-std::string matkul::getNamaMatkul()
+std::string matkul::getNama()
 {
     return this->namaMatkul;
 }

@@ -26,7 +26,7 @@ int main()
     int menu_terpilih;
     float ips;
     float ipk = 0, asal = 0;
-    int idS = 0, idL = 0, idSt = 0, idUser = 0;
+    int idS = 0, idL = 0, idSt = 0, idUser = 0, idMatkul = 0;
     long unsigned i;
     string id, name, studentID, staffID, department, unit, showGPA, user, menuAdmin, education;
     char repeat, mengeditIP;
@@ -64,7 +64,7 @@ int main()
         cout << "  1. Jumlah Mahasiswa             : " << recMhs.size() << " Mahasiswa" << endl;
         cout << "  2. Jumlah Dosen                 : " << recDosen.size() << " Orang" << endl;
         cout << "  3. Jumlah Tenaga Kependidikan   : " << recTendik.size() << " Orang" << endl;
-        cout << "  4. Jumlah Tenaga Kependidikan   : " << recMatkul.size() << " Buah" << endl;
+        cout << "  4. Jumlah Matkul   : " << recMatkul.size() << " Buah" << endl;
         cout << endl;
         cout << "Menu: " << endl;
         cout << "  1. Tambah Mahasiswa" << endl;
@@ -152,8 +152,7 @@ int main()
         break;
         case 4:
         {
-            cls();
-            int idMatkul = 0;
+            cls(); 
             string namaMatkul;
             idMatkul++;
             id = to_string(idMatkul);
@@ -332,10 +331,45 @@ int main()
         break;
         case 8:
         {
-            return main();
+            while (recMatkul.size() == 0)
+            {
+                cout << "Belum ada data Mata Kuliah" << endl
+                     << endl;
+                cout << "Tekan Enter Untuk Kembali ke Menu Utama...";
+                cin.ignore();
+                cin.ignore();
+                return main();
+            }
+             for (int i = 0; i < recMatkul.size(); i++)
+            {
+
+                cout << "Nama: " << recMatkul[i].getNama() << " -- ( " << recMatkul[i].getId() << " )" << endl;
+            }
+            cout << "Masukan ID Matkul: ";
+            cin >> idUser;
+            cls();
+            while (idMatkul > recMatkul.size())
+            {
+                cout << "ID Matkul Tidak Ditemukan" << endl;
+                cout << "Tekan Apapun Untuk Kembali ke Menu Utama...";
+                cin.ignore();
+                cin.ignore();
+                return main();
+            }
+            for (int i = 0; i < recMatkul.size(); i++)
+            {
+                cout << "---------------------------------- Data Mata Kuliah --------------------------------" << endl;
+                cout << i + 1 << ".  Id: " << recMatkul[i].getId() << endl;
+                cout << "\tNama        : " << recMatkul[i].getNama() << endl;
+            }
         }
         break;
         case 9:
+        {
+            return main();
+        }
+        break;
+        case 10:
         {
             cls();
             return 0;
